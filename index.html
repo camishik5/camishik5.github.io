@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StaffRest</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <button class="header__burger hamburger hamburger--collapse btn-reset" type="button">
+        <span class="hamburger__box">
+          <span class="hamburger__inner">
+          </span>
+        </span>
+      </button>
+      <a href="#" class="logo">StaffRest</a>
+      <nav class="header__nav">
+        <ul class="nav__list list-reset">
+          <li>
+            <a href="#about" class="list__item js-menu-link">О компании</a>
+          </li>
+          <li>
+            <a href="#advantages" class="list__item js-menu-link">Преимущества</a>
+          </li>
+          <li>
+            <a href="#services" class="list__item js-menu-link">Услуги</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="hero" class="section hero__section">
+    <div class="container hero__container">
+      <img class="hero__img" src="img/hero_bg.jpg" alt="Фото 1">
+    </div>
+  </div>
+  <section id="about" class="section about__section">
+    <div class="container about__container">
+      <h2 class="title about__title">О компании</h2>
+      <div class="block about__block">
+        <div class="text__block">
+          <p class="desc block__desc">Компания StaffRest - это инновационное программное средство, разработанное
+            специально для организаций в сфере ресторанного бизнеса, которые заинтересованы в эффективном управлении
+            персоналом. Наше программное средство предназначено для автоматизации процессов управления персоналом,
+            оптимизации рабочего времени и улучшения коммуникации между сотрудниками.
+          </p>
+        </div>
+        <picture>
+          <source srcset="img/about@320.jpg" media="(max-width: 602px)">
+          <img class="about__img" src="img/about_bg.jpg" alt="Фото 2">
+        </picture>
+      </div>
+    </div>
+  </section>
+  <section id="advantages" class="section advantages__section">
+    <div class="container advantages__container">
+      <h2 class="title advantages__title">Наши преимущества</h2>
+      <ul class="advantages__list list-reset">
+        <li class="advantages__item">
+          <div class="advantages__left-side">
+            <p class="advantages__item__text">
+              Интеллектуальная Интеграция
+            </p>
+          </div>
+          <div class="advantages__right-side">
+            <p class="advantages__right__text">
+              StaffRest разработан для бесперебойной интеграции с существующими системами учета и ERP-решениями
+              предприятия, обеспечивая плавный синхрон с вашими процессами.
+            </p>
+          </div>
+        </li>
+        <li class="advantages__item">
+          <div class="advantages__left-side">
+            <p class="advantages__item__text">
+              Улучшение коммуникации
+            </p>
+          </div>
+          <div class="advantages__right-side">
+            <p class="advantages__right__text">
+              StaffRest обеспечивает прозрачное взаимодействие между сотрудниками и менеджментом, что способствует
+              повышению коллективной эффективности и улучшению внутренних коммуникаций.
+            </p>
+          </div>
+        </li>
+        <li class="advantages__item">
+          <div class="advantages__left-side">
+            <p class="advantages__item__text">
+              Простота использования
+            </p>
+          </div>
+          <div class="advantages__right-side">
+            <p class="advantages__right__text">
+              Мы уделили особое внимание удобству интерфейса, чтобы ваша команда могла легко освоить StaffRest и
+              эффективно работать с системой без лишнего стресса и длительного обучения.
+            </p>
+          </div>
+        </li>
+        <li class="advantages__item">
+          <div class="advantages__left-side">
+            <p class="advantages__item__text">
+              Надежная поддержка
+            </p>
+          </div>
+          <div class="advantages__right-side">
+            <p class="advantages__right__text">
+              Мы предоставляем высококачественную поддержку и обновления программного обеспечения, чтобы наши клиенты
+              могли быть уверены в бесперебойной работе StaffRest.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>ц
+  </section>
+  <section class="section services__section">
+    <div class="container services__container">
+      <h2 id="services" class="title services__title">Наши услуги</h2>
+      <div class="block services__block">
+        <picture>
+          <source srcset="img/services@320.jpg" media="(max-width: 602px)">
+          <img class="services__img" src="img/services_bg.jpg" alt="Фото 3">
+        </picture>
+        <div class="services__text__block">
+          <p class="desc block__desc">StaffRest позволяет автоматизировать составление графиков смен, учитывая
+            потребности ресторанного предприятия и привлекая к работе сотрудников в соответствии с нагрузкой. Выбирая
+            StaffRest, вы получаете все необходимые инструменты для эффективного управления персоналом на вашем
+            предприятии в сфере ресторанного бизнеса.
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__content">
+        <div class="footer__up_block">
+          <div class="up_block__section_left">
+            <a href="#" class="footer__logo">staffrest@gmail.com</a>
+          </div>
+          <div class="address-appliction-btn__block">
+            <p class="address">
+              Офис в Москве +7&nbsp;499 503-07-07
+              Берсеневский пер., д.&nbsp;5, cтр.&nbsp;4,
+              3-й эт., Москва, 119072
+            </p>
+            <p class="address">
+              Офис в Казани +7&nbsp;243 541-09-06
+              пл. Тукая, д.&nbsp;47, cтр.&nbsp;5,
+              6-й эт., Казань, 679048
+            </p>
+            <button onclick="LinkPage('application.html')" class="application__btn btn-reset">
+              Заполните заявку
+            </button>
+          </div>
+        </div>
+        <div class="footer__down_block">
+          <div class="down_block__section_left">
+            <span class="copy">©StaffRest 2023. Все права защищены</span>
+          </div>
+          <div class="down_block__section_right">
+            <a onclick="LinkPage('FAQ.html')" class="policy">FAQ</a>
+            <a onclick="LinkPage('documents.html')" class="policy">Документы</a>
+            <span class="made">Made by Garaishina</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
